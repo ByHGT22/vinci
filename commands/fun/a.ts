@@ -2,7 +2,7 @@ const { commandModule, CommandType } = require('@sern/handler');
 import { Context } from "@sern/handler";
 import { ApplicationCommandOptionType, AttachmentBuilder, EmbedBuilder } from "discord.js";
 import { publish } from "../../src/plugins/publish";
-const choices = ['XaviXE', 'Paula', 'William', 'Espejito2500', 'Wheelook', 'MarioCabrera', 'Paticama', 'Vinci', 'SrIzan', 'ItsAdrian', 'ByHGT'];
+const choices = ['XaviXE', 'Paula', 'William', 'Espejito2500', 'Wheelook', 'MarioCabrera', 'Paticama', 'Vinci', 'SrIzan', 'ItsAdrian', 'ByHGT22'];
 
 export default commandModule({
 	name: 'a',
@@ -43,7 +43,7 @@ export default commandModule({
 					'./images/Vinci.png',
 					'./images/SrIzan.png',
 					'./images/ItsAdrian.png',
-					'./images/ByHGT.png'
+					'./images/ByHGT22.png'
 				]
 				const images = imagesArray[Math.floor(Math.random() * imagesArray.length)];
 
